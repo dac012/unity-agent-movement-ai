@@ -11,9 +11,10 @@ Este repositorio implementa y prueba un sistema de **movimiento de personajes** 
 
 ## Estructura del repositorio
 
-- `/src`: Código fuente en C# del sistema de movimiento y IA.
-- `/agents`: Ejemplos de agentes y personajes programados.
-- `/scenarios`: Escenarios y mapas para probar los comportamientos implementados.
+- `Assets/`: Carpeta estándar de Unity que contiene todos los recursos, scripts y escenas del proyecto, incluyendo la lógica de movimiento y la IA de los agentes.
+- `Packages/`: Configuración de paquetes utilizada por el proyecto de Unity.
+- `ProjectSettings/`: Configuración del proyecto de Unity (inputs, layers, build settings, etc.).
+- `.gitignore`, `.collabignore`: Archivos para excluir ficheros y carpetas del control de versiones.
 - `README.md`: Este archivo.
 
 ## Ejemplo de comportamiento de IA
