@@ -17,19 +17,6 @@ Este repositorio implementa y prueba un sistema de **movimiento de personajes** 
 - `.gitignore`, `.collabignore`: Archivos para excluir ficheros y carpetas del control de versiones.
 - `README.md`: Este archivo.
 
-## Ejemplo de comportamiento de IA
-
-```csharp
-if (agent.CanSee(target))
-{
-    agent.MoveTowards(target.Position);
-}
-else
-{
-    agent.Patrol();
-}
-```
-
 ## ¿Para qué usar este proyecto?
 
 - Como base para prácticas de inteligencia artificial, agentes autónomos o videojuegos en C#.
